@@ -1,3 +1,6 @@
+// this code is inspired by SketchRNN ml5js Demo
+// https://github.com/ml5js/ml5-library/blob/main/examples/p5js/SketchRNN/SketchRNN_interactive/sketch.js
+
 console.log('ml5 version:', ml5.version);
 let brushColor = "black";
 // sketch model;
@@ -57,6 +60,7 @@ function draw(){
     x = mouseX;
     y = mouseY;
   }
+  
   
   // when mouse release
   // strokePath will be intialized
